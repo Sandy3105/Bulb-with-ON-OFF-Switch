@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Button</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        .container{
+            /* background-color: brown; */
+            height: 50vh;
+            width:30vw;
+            margin-top: 5vw;
+            margin-left: 30vw;
+            
+        }
+        h1{
+            margin-left: 3vw;
+            
+        }
+        button{
+            width: 10vw;
+            height: 4vw;
+            margin-left: 10vw;
+            margin-top: 5vh;
+            font-size: xx-large;
+        }
+        .images img{
+            width: 12vw;
+            margin-left: 9vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>This is ON/OFF Switch</h1>
+    <br>
+    <div class="images">
+        <img id="bulb" src="offBulb.jpg" alt="">
+    </div>
+        
+        <button id="btn" onclick="clickFun()">ON</button>
+    </div>
+    
+
+
+    <script src="switch.js"></script>
+</body>
+</html>
